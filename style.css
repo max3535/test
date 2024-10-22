@@ -1,0 +1,42 @@
+:root {
+    --bg: #f4f7f7;
+    --bgc: #fafafa;
+    --bg-dark: #7d58fe;
+    --text: #272727;
+    --accent: #fec830;
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+.title{
+    text-align: center;
+    font-size: 42px;
+}
+.wish-list{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wish-item{
+    display: flex;
+    align-items: center;
+    width: 298px;
+    min-height: 362px;
+    background: #fff;
+    border-radius: 32px;
+    justify-content: center;
+   
+    flex-direction: column;
+}
+.wish-photo{
+    display: block;
+    width: 290px;
+    height: 200px;
+}
